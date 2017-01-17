@@ -1,0 +1,15 @@
+// footer
+footer {
+  background: $pinkle-bluewood;
+  padding-top: 2em;
+  .row {
+    @include media(">small") {
+      margin-left: -2.188em;
+    }
+  }
+  p {
+    font-size: 0.750rem;
+    line-height: 3em;
+    letter-spacing: 0.004em;
+  }
+}

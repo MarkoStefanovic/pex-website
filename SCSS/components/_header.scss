@@ -1,0 +1,125 @@
+// header
+.navbar.navbar-default {
+  border: none;
+  border-radius: 0;
+  background: $pinkle-bluewood;
+  margin: 0;
+  // border bottom line
+  @include media(">=small") {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background: transparent;
+    height: 103px;
+    @include transition(all 0.2s ease-in-out);
+    &.scroll {
+      background: $pinkle-bluewood;
+      @include transition(all 0.2s ease-in-out);
+    }
+  }
+  // navbar links
+  .nav.navbar-nav {
+    @include media(">=small") {
+      position: absolute;
+      right: 1.2%;
+    }
+    a {
+      font-size: 20px;
+      line-height: 10vh;
+      /*20px*/
+      color: $white;
+      text-decoration: none;
+      @include media("<small","landscape") {
+        line-height: 7vh;
+      }
+      @include media(">=small") {
+        font-size: 13px;
+        line-height: 72px;
+      }
+    }
+    li {
+      @include media(">=small") {
+        height: 75px;
+      }
+      @include media(">=large") {
+        margin-right: 22px;
+        &:last-of-type {
+          margin-right: -3px;
+        }
+      }
+    }
+  }
+  // hover, active, focus background color
+  .nav.navbar-nav li a:focus,
+  .nav.navbar-nav li a:hover {
+    color: $white;
+  }
+  .nav.navbar-nav li.active a {
+    background: transparent;
+    color: $mandy;
+    @include media(">=small") {
+      color: $white;
+    }
+  }
+  // hover, active, focus bottom line
+  .nav.navbar-nav li a:focus::after,
+  .nav.navbar-nav li a:hover::after,
+  .nav.navbar-nav li.active a::after {
+    @include media(">=small") {
+      content: "";
+      position: absolute;
+      left: 15px;
+      right: 15px;
+      bottom: 0;
+      border-bottom: 3px solid $white;
+    }
+  }
+  // logo
+  .navbar-brand {
+    @include media(">=small") {
+      padding: 42px 15px 58px 0;
+      margin-left: -20px;
+    }
+  }
+  // search-bar
+  .navbar-form {
+    width: 200px;
+    margin: 0 auto 0 -115px;
+    border: 0;
+    box-shadow: none;
+    position: absolute;
+    left: 50%;
+    padding: 0 15px;
+    @include media(">=small") {
+      position: relative;
+      margin: 29px 0 0;
+      left: 0;
+      width: 150px;
+    }
+    @include media(">=large") {
+      width: 250px;
+    }
+  }
+  .form-control {
+    font-size: 12px;
+    font-family: $opensans;
+    font-weight: 400;
+    line-height: 75px;
+    color: $dove-gray;
+    height: 44px;
+    width: 150px;
+    border-radius: 50px 0 0 50px;
+    border-right: 0;
+    padding-left: 26px;
+    padding-right: 0;
+    margin-left: 5px;
+    @include media(">=small") {
+      width: 68px;
+      margin: 0;
+    }
+    @include media(">=large") {
+      width: 183px;
+    }
+  }
+}
+#main {
+  position: relative;
+}

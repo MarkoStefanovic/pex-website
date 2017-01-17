@@ -1,0 +1,125 @@
+// offer 1
+.offer {
+  padding: 4.813em 0;
+  min-height: 480px;
+  @include media(">=small") {
+    padding: 7.5em 0 12.125em;
+  }
+  // mod1 responsive background
+  &.mod1 {
+    background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/offer1-320.jpg') center center no-repeat;
+    background-size: cover;
+    @include media("retina2x"){
+      background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/retina/offer1-320@2x.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    @include media(">smallest") {
+      background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/offer1-560.jpg') center center no-repeat;
+      background-size: cover;
+      @include media("retina2x"){
+        background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/retina/offer1-560@2x.jpg') center center no-repeat;
+        background-size: cover;
+      }
+    }
+    @include media(">smaller") {
+      background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/offer1-768.jpg') center center no-repeat;
+      background-size: cover;
+      @include media("retina2x"){
+        background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/retina/offer1-768@2x.jpg') center center no-repeat;
+        background-size: cover;
+      }
+    }
+    @include media(">=small") {
+      height: 33.688em;
+    }
+    @include media(">small") {
+      background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/offer1-992.jpg') center center no-repeat;
+      background-size: cover;
+      @include media("retina2x"){
+        background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/retina/offer1-fullscreen.jpg') center center no-repeat;
+        background-size: cover;
+      }
+    }
+    @include media(">medium") {
+      background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/offer1-1200.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    @include media(">large") {
+      background: linear-gradient(rgba(195,82,104,0.8),rgba(195,82,104,0.8)), url('/pex-website/images/img/offer1-1600.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    // heading
+    h3 {
+      margin-bottom: 0.086em;
+    }
+    // text
+    p {
+      max-width: 30em;
+      margin: 0 auto 1.867em;
+    }
+  }
+  //mod2
+  &.mod2 {
+    background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/offer2-320.jpg') center center no-repeat;
+    background-size: cover;
+    @include media("retina2x"){
+      background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/retina/offer2-320@2x.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    @include media(">smallest") {
+      background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/offer2-560.jpg') center center no-repeat;
+      background-size: cover;
+      @include media("retina2x"){
+        background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/retina/offer2-560@2x.jpg') center center no-repeat;
+        background-size: cover;
+      }
+
+    }
+    @include media(">smaller") {
+      background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/offer2-768.jpg') center center no-repeat;
+      background-size: cover;
+      @include media("retina2x"){
+        background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/retina/offer2-768@2x.jpg') center center no-repeat;
+        background-size: cover;
+      }
+
+    }
+    @include media(">=small") {
+      padding-top: 9.938em;
+      height: 34.375em;
+    }
+    @include media(">small") {
+      background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/offer2-992.jpg') center center no-repeat;
+      background-size: cover;
+      @include media("retina2x"){
+        background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/retina/offer2-fullscreen.jpg') center center no-repeat;
+        background-size: cover;
+      }
+
+    }
+    @include media(">medium") {
+      background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/offer2-1200.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    @include media(">large") {
+      background: linear-gradient(rgba(82,26,102,0.8),rgba(82,26,102,0.8)), url('/pex-website/images/img/offer2-1600.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    h2 {
+      margin-bottom: 0.550em;
+      letter-spacing: -0.02em;
+    }
+    p {
+      margin: 0 auto 1.2em;
+      font-size: 1.250rem;
+      letter-spacing: -0.006em;
+      max-width: 37.500em;
+    }
+    .text-small {
+      font-size: 0.750rem;
+      line-height: 1.417em;
+      margin-top: 1.250em;
+      letter-spacing: -0.004em;
+    }
+  }
+}

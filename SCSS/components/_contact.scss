@@ -1,0 +1,25 @@
+// contact
+.contact {
+  background: $mandy;
+  color: $white;
+  padding-top: 3.813em;
+  padding-bottom: 3.813em;
+  @include media(">=small") {
+    height: 460px;
+  }
+  .row {
+    @include media(">small") {
+      margin-left: -2.188em;
+    }
+  }
+  // heading
+  h4 {
+    color: $white;
+  }
+  // text
+  p {
+    max-width: 400px;
+    margin-bottom: 1.333em;
+    letter-spacing: 0.006em;
+  }
+}

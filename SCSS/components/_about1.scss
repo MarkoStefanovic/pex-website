@@ -1,0 +1,83 @@
+// about1
+.about {
+  background: $white;
+  @include media(">=large") {
+    height: 495px;
+  }
+  // section with image
+  .image {
+    padding: 0;
+  }
+  // images
+  img {
+    @include media(">=629px","<small") {
+      margin: 0 auto;
+    }
+  }
+  // section for text
+  section {
+    padding: 1.813em 0 4.813em;
+    max-width: 40.938em;
+    @include media(">=small") {
+      padding: 4.813em 0;
+      margin-left: 3.063em;
+    }
+    header {
+      position: relative;
+    }
+    // heading
+    h4 {
+      margin-bottom: 0.067em;
+    }
+    h2 {
+      font-family: $merriweather;
+      font-size: 2.5rem;
+      color: $fiord;
+      text-align: right;
+      @include media(">=medium") {
+        position: absolute;
+        right: 0;
+        top: -1.075em;
+      }
+    }
+    // big text
+    .big-text {
+      font-size: 1.188rem;
+      font-weight: 400;
+      line-height: 1.632em;
+      margin-bottom: 1.316em;
+      letter-spacing: -0.01em;
+    }
+    // text
+    p {
+      color: $fiord;
+      letter-spacing: 0.008em;
+    }
+  }
+  // second variation to about section
+  &.variation2 {
+    @include media(">=large") {
+      height: 516px;
+    }
+    section {
+      @include media(">=small") {
+        padding: 6.063em 0 4.813em;
+        float: right;
+        margin-right: 3.313em;
+      }
+    }
+    h2 {
+      @include media(">=medium") {
+        right: -0.725em;
+      }
+    }
+    .image img {
+      @include media(">=small") {
+        float: right;
+      }
+      @include media(">=full") {
+        height: 516px;
+      }
+    }
+  }
+}

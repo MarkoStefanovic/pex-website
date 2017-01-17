@@ -1,0 +1,10 @@
+$icon-font-path: '../fonts/';
+$fa-font-path: "../fonts/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "bower_components/include-media/dist/include-media";
+@import "bower_components/font-awesome/scss/font-awesome";
+@import "bower_components/aos/dist/aos";
+// endbower

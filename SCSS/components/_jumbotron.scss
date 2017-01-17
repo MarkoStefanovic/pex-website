@@ -1,0 +1,84 @@
+// jumbotron
+.jumbotron {
+  height: 430px;
+  margin-bottom: 0;
+  // jumbotron background
+  background: url('/pex-website/images/img/jumbotron-320.jpg') top center no-repeat;
+  background-size: cover;
+  @include media("retina2x") {
+    background: url('/pex-website/images/img/retina/jumbotron-320@2x.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  @include media(">smallest") {
+    background: url('/pex-website/images/img/jumbotron-560.jpg') top center no-repeat;
+    background-size: cover;
+    @include media("retina2x") {
+      background: url('/pex-website/images/img/retina/jumbotron-560@2x.jpg') top center no-repeat;
+      background-size: cover;
+    }
+  }
+  @include media(">smaller") {
+    background: url('/pex-website/images/img/jumbotron-768.jpg' top center no-repeat);
+    background-size: cover;
+    @include media("retina2x") {
+      background: url('/pex-website/images/img/retina/jumbotron-768@2x.jpg') top center no-repeat;
+      background-size: cover;
+    }
+  }
+  @include media(">=small") {
+    padding-top: 103px;
+    height: 891px;
+    background: url('/pex-website/images/img/jumbotron-992.jpg') top center no-repeat;
+    background-size: cover;
+    @include media("retina2x") {
+      background: url('/pex-website/images/img/retina/jumbotron-fullscreen.jpg') top center no-repeat;
+      background-size: cover;
+    }
+  }
+  @include media(">medium") {
+    background: url('/pex-website/images/img/jumbotron-1200.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  @include media(">large") {
+    background: url('/pex-website/images/img/jumbotron-1600.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  //container
+  .container {
+    padding-top: 1em;
+    @include media(">=small") {
+      padding-top: 14.938em;
+      .row > div {
+        text-align: center;
+        margin-left: -3.313em;
+        @include media(">=small") {
+          text-align: right;
+        }
+      }
+    }
+  }
+  h1 {
+    text-align: left;
+    max-width: 11.100em;
+    margin-left: 20px;
+    margin-bottom: 0.920em;
+    @include media(">=small") {
+      text-align: right;
+      margin-right: 0.120em;
+      margin-left: 0;
+    }
+  }
+  // span
+  p {
+    color: $white;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.417em;
+    margin-top: 1em;
+    margin-left: 20px;
+    @include media(">=small") {
+      margin-right: 5%;
+      margin-left: 0;
+    }
+  }
+}

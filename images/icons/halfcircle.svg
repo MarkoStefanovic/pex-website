@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   preserveAspectRatio="xMidYMid"
+   width="135"
+   height="36"
+   viewBox="0 0 135 36"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="halfcircle.svg"
+   inkscape:export-filename="C:\Users\Marko\Desktop\projects\pex\halfcircle.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview10"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     units="px"
+     width="210mm"
+     inkscape:zoom="7.6985927"
+     inkscape:cx="87.409403"
+     inkscape:cy="17.956185"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <sodipodi:guide
+       position="74.38722,106.13004"
+       orientation="1,0"
+       id="guide4142" />
+    <sodipodi:guide
+       position="209.69501,149.73634"
+       orientation="1,0"
+       id="guide4144" />
+    <sodipodi:guide
+       position="117.67289,118.31416"
+       orientation="0,1"
+       id="guide4172" />
+    <sodipodi:guide
+       position="141.06474,82.092927"
+       orientation="0,1"
+       id="guide5629" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4179"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4181" />
+    </linearGradient>
+    <style
+       id="style6">
+      .cls-1 {
+        fill: #2e3b4e;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path
+     d="m -0.4321504,-0.09160212 0,0.77539 0.257812,0 c 8.974,0 20.2458284,6.20310962 25.0488284,13.78710912 0,0 13.668731,21.58203 41.302729,21.58203 27.633,0 41.302741,-21.58203 41.302741,-21.58203 4.803,-7.5839995 16.07483,-13.78710912 25.04883,-13.78710912 l 2.34765,0 0,-0.77539 -135.3085904,0 z"
+     id="path8"
+     style="fill:#2e3b4e;fill-opacity:1"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+</svg>

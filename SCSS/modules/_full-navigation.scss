@@ -1,0 +1,80 @@
+// left navigation
+
+@include media("<small"){
+  // hamburger menu animation
+
+.navbar-default .navbar-toggle{
+  &:hover,&:focus{
+    background: transparent;
+  }
+    overflow: hidden;
+    border: none;
+    .icon-bar {
+    background: $cabaret;
+      @include transition(opacity 0.2s ease-in-out, transform 0.2s ease-in-out);
+    }
+
+    &.collapsed {
+      .icon-bar {
+        &.top-bar {
+          transform: translateY(6px) rotate(45deg);
+        }
+        &.middle-bar {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        &.bottom-bar {
+          transform: translateY(-6px) rotate(-45deg);
+        }
+      }
+    }
+  }
+
+    .viewport {
+      margin: 0;
+      padding: 0;
+      @include position(absolute, 49px 0 0 0);
+    }
+
+    .frame > .menu-slide-show {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      @include position(absolute, 0 null 0 0);
+      z-index: 1;
+    }
+
+    .menu-slide {
+      position: absolute;
+      width: 100%;
+      background:rgba(0, 0, 0, 0.85);
+      float: left;
+      margin: 0;
+      padding: 0;
+      @include transform(translateX(100vw) translateY(-100vh) scale(0.1,0.1));
+      @include transition(all 400ms ease-in-out);
+      opacity: 0;
+    }
+
+    .navbar-collapse.in.menu-slide-show {
+    opacity: 1;
+    border: none;
+    height: 100vh;
+    max-height: 100vh;
+    z-index: 1;
+    @include transform(translateX(0) translateY(0) scale(1,1));
+
+    }
+
+
+    .nav.navbar-nav {
+      margin: 0;
+      background: transparent;
+      text-align: center;
+      width: 100%;
+      @include media("landscape"){
+        //height: 85vh;
+      }
+    }
+}

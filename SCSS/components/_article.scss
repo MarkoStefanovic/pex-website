@@ -1,0 +1,77 @@
+// article
+.article {
+  padding: 4.813em 15px 1.813em;
+  background: url('/images/pex/img/article-320.jpg') center center no-repeat;
+  background-size: cover;
+  @include media("retina2x") {
+    background: url('/images/pex/img/retina/article-320@2x.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  @include media(">smallest") {
+    background: url('/images/pex/img/article-560.jpg') center center no-repeat;
+    background-size: cover;
+    @include media("retina2x") {
+      background: url('/images/pex/img/retina/article-560@2x.jpg') center center no-repeat;
+      background-size: cover;
+    }
+  }
+  @include media(">smaller") {
+    background: url('/images/pex/img/article-768.jpg') center center no-repeat;
+    background-size: cover;
+    @include media("retina2x") {
+      background: url('/images/pex/img/retina/article-768@2x.jpg') center center no-repeat;
+      background-size: cover;
+    }
+  }
+  @include media(">small") {
+    background: url('/images/pex/img/article-992.jpg') center center no-repeat;
+    background-size: cover;
+    @include media("retina2x") {
+      background: url('/images/pex/img/retina/article-fullscreen.jpg') center center no-repeat;
+      background-size: cover;
+    }
+  }
+  @include media(">=small") {
+    padding: 4.813em 15px;
+    height: 670px;
+    padding: 0;
+  }
+  @include media(">medium") {
+    background: url('/images/pex/img/article-1200.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  @include media(">large") {
+    background: url('/images/pex/img/article-1600.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  article {
+    margin-top: 100px;
+    max-width: 37.5em;
+    @include media(">=small") {
+      margin: 22.250em 0 0;
+    }
+    @include media(">small") {
+      margin-left: -0.313em;
+    }
+  }
+  span {
+    font-size: 0.813rem;
+    font-weight: 600;
+    line-height: 3.077em;
+    color: $white;
+  }
+  .category {
+    padding: 0.5em 1.923em;
+    border: 2px solid $white;
+    border-radius: 50px;
+  }
+  h2 {
+    margin: 0.4em 0 0.725em;
+  }
+  .author {
+    img {
+      float: left;
+      margin-right: 0.813em;
+    }
+  }
+}

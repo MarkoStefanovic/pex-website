@@ -1,0 +1,19 @@
+// body elements
+body,
+html {
+  position: relative;
+  /*to enable scroll-spy*/
+  overflow-x: hidden;
+
+  font-family: $opensans;
+  font-weight: 400;
+  // font sizes
+  font-size: 14px;
+  @include media(">=small") {
+    font-size: 15px;
+  }
+  @include media(">=medium") {
+    font-size: 16px;
+  }
+}
+//*{border: 1px solid red;}

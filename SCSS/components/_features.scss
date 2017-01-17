@@ -1,0 +1,40 @@
+// features
+.features {
+  position: relative;
+  background-color: $pinkle-bluewood;
+  padding-top: 3.875em;
+  padding-bottom: 3.875em;
+  // half circle at bottom
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    background: url('/pex-website/images/icons/halfcircle.svg') center center no-repeat;
+    width: 135px;
+    height: 36px;
+    // centering
+    margin-top: -18px;
+    margin-left: -67.5px;
+    z-index: 1;
+  }
+  @include media(">=small") {
+    padding-bottom: 5.625em;
+  }
+  .feature {
+    max-width: 400px;
+    margin-bottom: 2.375em;
+    &.right {
+      @include media(">=large") {
+        float: right;
+        margin-right: -8px;
+      }
+    }
+    // title
+    h4 {
+      color: $white;
+      margin-bottom: 1.2em;
+    }
+  }
+}
